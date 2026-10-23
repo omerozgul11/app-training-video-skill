@@ -1,0 +1,8 @@
+# Pinned, known-good set (Python 3.10–3.13). Offline narration, video assembly, browser capture.
+kokoro-onnx==0.6.1
+onnxruntime==1.30.0
+numpy==2.5.3
+soundfile==0.14.0
+imageio-ffmpeg==0.6.0
+pillow==12.3.0
+playwright==1.63.0

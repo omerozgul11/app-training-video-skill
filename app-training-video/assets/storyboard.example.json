@@ -1,0 +1,34 @@
+{
+  "title": "Acme Planner training",
+  "output_dir": "video-build",
+  "voice": "af_heart",
+  "voice_language": "en-us",
+  "voice_speed": 1.0,
+  "brand": {
+    "company": "Acme Inc.",
+    "product": "Acme Planner",
+    "tagline": "Training: from a new project to a shared schedule",
+    "subtitle": "Version 2.4  ·  Windows, macOS and web",
+    "accent": "#f26522",
+    "logo": "logo.png",
+    "outro": ["Questions? We are here to help", "acme.example/planner", "Support: support@acme.example", "Sales: sales@acme.example  ·  +1 (555) 010-0100"],
+    "output_name": "Acme-Planner-Training-2.4"
+  },
+  "caption_replacements": [
+    ["\\bA P I\\b", "API"],
+    ["\\bC S V\\b", "CSV"],
+    ["\\btwo D\\b", "2D"]
+  ],
+  "segments": [
+    {"id": "intro", "card": "intro", "chapter": "",
+     "speech": "Welcome to the Acme Planner training. In the next few minutes you will create a project, plan its tasks, and share the schedule with your team."},
+    {"id": "overview", "card": "chapter", "chapter": "1 · Getting started",
+     "speech": "The menu on the left lists everything in the order you use it. Projects, tasks, the schedule, and reports."},
+    {"id": "create", "chapter": "1 · Getting started",
+     "speech": "Choose new project, give it a name, and save. Your project opens straight away, ready for its first tasks."},
+    {"id": "import", "card": "chapter", "chapter": "2 · Planning tasks",
+     "speech": "Import an existing task list from a C S V file, or add tasks one by one. Drag a task to change its dates."},
+    {"id": "outro", "card": "outro", "chapter": "",
+     "speech": "That is the whole workflow. The user guide explains every setting, and our support team is happy to help."}
+  ]
+}
