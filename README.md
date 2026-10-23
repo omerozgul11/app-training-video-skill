@@ -79,4 +79,4 @@ These are downloaded at setup, not included here:
 - the [Inter](https://github.com/rsms/inter) typeface (SIL Open Font License 1.1);
 - Playwright/Chromium and ffmpeg (via imageio-ffmpeg), under their own licences.
 
-© QuakeLogic Inc. Internal tool.
+© QuakeLogic Inc.
